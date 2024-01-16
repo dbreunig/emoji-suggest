@@ -1,0 +1,7 @@
+__pycache__
+fly.toml
+Procfile
+Dockerfile
+docker-compose.yml
+.dockerignore
+emoji_suggest.py

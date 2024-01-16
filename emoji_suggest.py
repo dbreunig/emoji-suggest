@@ -3,7 +3,7 @@ import numpy as np
 
 emojis = []
 
-with open('./emojis.txt', 'r') as file:
+with open('./steplist_emojis.txt', 'r') as file:
   for line in file:
     emojis.append(line.strip())
 

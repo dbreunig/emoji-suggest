@@ -1,0 +1,5 @@
+fastapi==0.109.0
+fastapi-cors
+uvicorn==0.15.0
+numpy==1.25.1
+sentence-transformers==2.2.2
