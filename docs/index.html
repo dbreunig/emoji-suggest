@@ -104,6 +104,13 @@
     const spinner = document.getElementById('spinner');
     const result = document.getElementById('result');
 
+    textbox.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        emojifyBtn.click();
+      }
+    });
+
     emojifyBtn.addEventListener('click', () => {
       const text = encodeURIComponent(textbox.value);
       const url = `https://emoji-suggest.fly.dev/${text}`;
